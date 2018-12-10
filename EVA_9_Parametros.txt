@@ -1,0 +1,22 @@
+#include <iostream>
+
+
+using namespace std;
+
+
+void incrementa (int &Val){
+
+   Val++;
+}
+
+int main()
+{
+    
+int Val = 5;
+    
+incrementa(Val);
+    
+cout<<"El Valor es " << Val;
+    
+return 0;
+}
